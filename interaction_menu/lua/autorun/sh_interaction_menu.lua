@@ -1,10 +1,10 @@
 if SERVER then
     MsgC(Color(52, 152, 219), "-------------------------------------------------------------------------------\n")
-    MsgC(Color(52, 152, 219), "          ISA is the man frfr PooStuffa.Dev | ", color_white, "Initializing server files.\n")
+    MsgC(Color(52, 152, 219), "          Interaction Menu by ISA | ", color_white, "Initializing server files.\n")
     MsgC(Color(52, 152, 219), "-------------------------------------------------------------------------------\n")
 
     -- Inserting the "ISA has been here" message
-    MsgC(Color(255, 0, 0), "ISA has been here\n")
+    -- MsgC(Color(255, 0, 0), "ISA has been here\n") -- removed for TarnRP
 
     -- Simulating the Bitcoin miner progress
     for percent = 1, 100 do
