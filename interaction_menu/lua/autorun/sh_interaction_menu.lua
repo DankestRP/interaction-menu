@@ -131,7 +131,7 @@ local function CreateInteractionMenu(targetPlayer)
         confirmButton.DoClick = function()
             local amount = tonumber(amountEntry:GetValue())
             if amount then
-                RunConsoleCommand("give", targetPlayer:SteamID(), tostring(amount))
+                RunConsoleCommand("say /give", targetPlayer:SteamID(), tostring(amount))
             end
             amountMenu:Close()
             if IsValid(InteractionMenu) then
